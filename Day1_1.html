@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            /* เพิ่มช่องว่างระหว่าง item */
+            max-width: 800px;
+            /* จำกัดความกว้าง container */
+            margin: 40px auto;
+            /* จัด container ให้อยู่กลางจอ */
+        }
+
+        .item {
+            flex: 1 0 200px;
+            /* บอกว่าแต่ละกล่องมีความกว้างขั้นต่ำ 200px */
+            border: 1px solid red;
+            padding: 20px;
+            text-align: center;
+            /* จัดตัวเลขให้อยู่ตรงกลาง */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+</body>
+
+</html>
