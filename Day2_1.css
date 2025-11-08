@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    border: 1px solid #ff0000;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 36px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 40px auto;
+    gap: 20px;
+}
+.card{
+    flex: 1 0 200px;
+    border: 1px solid black;
+    padding: 40px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+}
